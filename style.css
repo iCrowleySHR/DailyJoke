@@ -82,7 +82,10 @@ main{
   margin-left: 10px;
 
 }
-
+.options{
+  display: flex;
+  flex-direction: column;
+}
 a{
   color: white;
   font-weight: 800;
