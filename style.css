@@ -38,6 +38,7 @@ nav{
   width: 100%;
   color: black;
   background-color: white;
+  margin-bottom: -10px;
 }
 
 .jokeArea{
@@ -51,7 +52,7 @@ nav{
   height: 180px;
   background-color: white;
   color: black;
-  margin-top: 20px;
+  margin-top: 50px;
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 13px;
@@ -70,7 +71,7 @@ main{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: -23px;
+  margin-top: 0px;
   font-family: 'Raleway', sans-serif;
   font-weight: 200;
 }
@@ -144,7 +145,6 @@ footer{
   .checkboxes{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    margin-top: -15px;
+    margin-top: 0px;
   }
 }
