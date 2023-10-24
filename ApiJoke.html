@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DailyJoke</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <nav>DailyJoke</nav>
+    </header>
+    <main>
+        <div class="jokeArea">
+
+        </div>
+    
+            <label>If you didn't want these jokes, mark them and click apply</label> <br>
+        <div class="checkboxes">    
+            <input type="checkbox" id="nsfw"> NSFW
+            <input type="checkbox" id="religious"> Religious
+            <input type="checkbox" id="political"> Political
+            <input type="checkbox" id="sexist"> Sexist
+            <input type="checkbox" id="explicit"> Explicit
+        </div>
+    
+        <label>Language</label>
+        <select id="lang">
+            <option value="lang=en">English</option>
+            <option value="lang=pt">Portuguese</option>
+            <option value="lang=fr">French</option>
+            <option value="lang=de">German</option>
+        </select>
+       <div class="msg">Depending on the language chosen, the number of jokes drops drastically</div> 
+        <button id="btnApply">Apply or new joke</button>
+    </main>
+
+    <footer>
+        Developed by <a href="#" target="_blank">Gustavo Gualda</a>
+    </footer>
+    <script src="custom.js"></script>
+</body>
+</html>
