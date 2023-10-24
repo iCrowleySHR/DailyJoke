@@ -3,9 +3,10 @@ This is a responsive website that randomly generates jokes using an API. Regardl
 ## Features
 - **Responsiveness:** The site adapts to various screen sizes, providing a consistent experience on smartphones, tablets, and computers.
 - **Jokes API:** We leverage a jokes API to provide an endless source of humor. You can get random jokes or choose specific categories.
-- - **Multi-Languages:** We support jokes in multiple languages, making it accessible and enjoyable for a diverse audience.
+- **Multi-Languages:** We support jokes in multiple languages, making it accessible and enjoyable for a diverse audience.
 - **Joke Filtering:** Want to hear specific types of jokes? You can filter jokes by category, ensuring you get the humor you prefer.
-
-![website image for desktop](https://icrowleyshr.github.io/DailyJoke/img/desktop.png)
-![website image for phones](https://icrowleyshr.github.io/DailyJoke/img/phone.png)
+<div align="center">
+  ![website image for desktop](https://icrowleyshr.github.io/DailyJoke/img/desktop.png)
+  ![website image for phones](https://icrowleyshr.github.io/DailyJoke/img/phone.png)
+</div>
 
