@@ -64,10 +64,20 @@ main{
 
 .checkboxes{
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   margin-top: -23px;
 }
 
-.checkboxes > input{
+.checkboxes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: -23px;
+  font-weight: 200;
+}
+
+.checkboxes > div > input{
   cursor: pointer;
   margin-left: 10px;
 
@@ -96,6 +106,7 @@ label{
   font-size: 15px;
   margin-bottom: 9px;
   text-align: center;
+  font-weight: 200;
 }
 
 button{
@@ -125,4 +136,12 @@ footer{
   height: 30px;
   font-weight: 400;
   font-size: 17px;
+}
+@media screen and (max-width:625px) {
+  .checkboxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -15px;
+  }
 }
