@@ -105,8 +105,9 @@ select{
 }
 
 label{
-  margin-top: 11px;
+  
   text-align: center;
+  margin: 11px auto 2px;
 }
 
 .msg{
