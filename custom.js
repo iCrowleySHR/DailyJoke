@@ -52,7 +52,7 @@ function generationJoke(){
             jokeArea.innerHTML= dados.joke
           }
             else if(dados.type === 'twopart'){ // piada com duas partes
-            jokeArea.innerHTML= `${dados.setup} </br> ${dados.delivery}`
+            jokeArea.innerHTML= `${dados.setup} ${dados.delivery}`
             }
               //console.log(dados)
               //console.log(linkAPI)  
